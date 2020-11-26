@@ -43,12 +43,12 @@ int main()
 	{
 		printf("\n OBJECT 1 IS E R R O R ! ! \n");
 	}
-	else printf("\nAccelerate of object 1 is %d\n", object01.V);
+	else printf("\nAccelerate of object 1 is %d\n", object01.A);
 	if (object02.A == -1)
 	{
 		printf(" OBJECT 2 IS E R R O R ! ! ");
 	}
-	else printf("Accelerate of object 2 is %d", object02.V);
+	else printf("Accelerate of object 2 is %d", object02.A);
 
 	return 0;
 }
